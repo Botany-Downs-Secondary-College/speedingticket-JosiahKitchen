@@ -2,7 +2,7 @@
 """
 Created on Wed Feb 10 14:34:05 2021
 
-@author: josia
+@author: josiah
 """
 
 import math
@@ -26,13 +26,13 @@ while loop == 1:
                 choice = int(choice)
                 loop2 = 3
             else:
-                print("Enter as number")
+                continue
                 
-        while loop2 == 3:
             if choice == 1:
                 speed_limit = input("Enter Speed Limit")
             
-            elif  
+            elif choice == 2:
+                print(wanted_list)
     else:
         speed = input("Enter speed")
         if speed <= 
