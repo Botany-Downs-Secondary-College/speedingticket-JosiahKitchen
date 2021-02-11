@@ -28,11 +28,22 @@ while loop == 1:
             else:
                 continue
                 
-            if choice == 1:
-                speed_limit = input("Enter Speed Limit")
+        if choice == 1:
+            speed_limit = input("Enter Speed Limit")
             
-            elif choice == 2:
-                print(wanted_list)
+        elif choice == 2:
+            print(wanted_list)
     else:
         speed = input("Enter speed")
-        if speed <= 
+        if speed <= speed_limit + (speed_limit / 10):
+            print("Below speed limit \n Enjoy your day")
+            
+        elif speed >= speed_limit and speed <= (speed_limit + 30):
+            print("You are over the speed limit by {1} km/h \n You will be fined ${2}".format(
+        
+        
+        
+        
+        
+        
+        
